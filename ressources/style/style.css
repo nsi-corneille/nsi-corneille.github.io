@@ -1,3 +1,9 @@
 body {
     background-color: #EB984E
 }
+p {
+  margin-right:auto;
+  margin-left:auto;
+  font-size: 40px;
+  tex-align: center;
+}
