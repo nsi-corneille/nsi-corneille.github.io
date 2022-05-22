@@ -1,7 +1,72 @@
-body {
-    background-color: #EB984E
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+    background-color: #EB984E;
+}
+
+.content {
+  margin-top: 100px;
+  align-items: center;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  top: 0;
+  align-items: center;  
+  padding: 23px 25px;
+  background: #783F0D;
+  box-shadow: inset 0px -1px 0px #333;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;  
+  text-decoration: none;
+  margin-right: 25px;
+  margin-left: 20px;
+}
+
+.nav-icon span {
+  font-size: 25px;
+  font-weight: 400;
+  color: #c5c5c6  ;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+.navlinks {
+  font-size: 20px;
+}
+.navlinks a {
+  text-decoration: none;
+  color: #c5c5c6;
+}
+
 p {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
+  margin: auto;
+}
+
+.D_Button {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.D_Button a {
+  padding: 10px 15px;
+  border-radius: 25px;
+  box-shadow: inset 1px 1px 1px #333;
+  font-size: 40px;
+  color: #c5c5c6;
+  background: green;
+  text-decoration: none;
 }
