@@ -56,6 +56,11 @@ nav{
 .navlinks a:hover {
   color: blanchedalmond;
 }
+title {
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+}
 
 .D_Button {
   text-align: center;
@@ -70,11 +75,4 @@ nav{
   color: #c5c5c6;
   background: green;
   text-decoration: none;
-}
-
-title {
-  font-size: 30px;
-  text-align: center;
-  margin: auto;
-  font-family: 'Press Start 2P', cursive;
 }
