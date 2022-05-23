@@ -48,8 +48,11 @@ nav{
 .navlinks a {
   text-decoration: none;
   color: #c5c5c6;
-}
 
+}
+.navlinks a:hover {
+  color: blanchedalmond;
+}
 p {
   font-size: 30px;
   text-align: center;
