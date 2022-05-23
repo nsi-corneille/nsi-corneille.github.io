@@ -13,6 +13,7 @@ body {
 .content {
   margin-top: 100px;
   align-items: center;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 nav{
@@ -35,6 +36,7 @@ nav{
 }
 
 .nav-icon span {
+  font-family: 'Press Start 2P', cursive;
   font-size: 25px;
   font-weight: 400;
   color: #c5c5c6  ;
