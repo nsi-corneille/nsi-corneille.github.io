@@ -46,6 +46,7 @@ nav{
 
 .navlinks {
   font-size: 20px;
+  font-family: 'Ubuntu Mono', monospace;
 }
 .navlinks a {
   text-decoration: none;
