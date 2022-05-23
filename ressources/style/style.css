@@ -56,7 +56,8 @@ nav{
 .navlinks a:hover {
   color: blanchedalmond;
 }
-title {
+
+.title {
   font-size: 30px;
   text-align: center;
   margin: auto;
