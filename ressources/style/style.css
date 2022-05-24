@@ -11,7 +11,7 @@ body {
 }
 
 .content {
-  margin-top: 100px;
+  margin-top: 70px;
   align-items: center;
   font-family: 'Ubuntu Mono', monospace;
 }
@@ -22,7 +22,7 @@ nav{
   display: flex;
   top: 0;
   align-items: center;  
-  padding: 23px 25px;
+  padding: 33px 25px;
   background: #783F0D;
   box-shadow: inset 0px -1px 0px #333;
 }
@@ -45,7 +45,7 @@ nav{
 }
 
 .navlinks {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Ubuntu Mono', monospace;
 }
 .navlinks a {
@@ -54,7 +54,11 @@ nav{
 
 }
 .navlinks a:hover {
-  color: blanchedalmond;
+  color: black;
+}
+
+.nav-icon span:hover{
+  color: black;
 }
 
 .title {
@@ -64,17 +68,37 @@ nav{
   margin: auto;
 }
 
-.D_Button {
+.button_container  {
+  width: 50%;
+  align-items: center;
   text-align: center;
-  margin-top: 90px;
 }
 
-.D_Button a {
+.D_Button {
+  text-align: center;
+  margin: auto;
   padding: 10px 15px;
   border-radius: 25px;
-  box-shadow: inset 1px 1px 1px #333;
+  border: 10px;
   font-size: 40px;
-  color: #c5c5c6;
   background: green;
+}
+
+
+.D_Button a {
   text-decoration: none;
+  color: #c5c5c6;
+}
+
+.histoire {
+  text-align: center;
+  margin-top: 50px;
+  width: 75%;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin-bottom: 30px;
 }
