@@ -85,6 +85,7 @@ nav{
   border: 10px;
   background: green;
   font-size: 170%;
+  align-self: center;
 }
 
 
@@ -96,11 +97,9 @@ nav{
 
 .histoire {
   text-align: center;
-  margin-top: 50px;
   width: 75%;
   font-size: 25px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto auto;
 }
 
 h1 {
@@ -171,7 +170,7 @@ SLIDESHOW
 	background:rgba(0,0,0,0.1);
 	z-index:100;
 	
-	
+	user-select: auto;
 	-webkit-user-select: none;  
 	-moz-user-select: none; 
 	-khtml-user-select: none; 
