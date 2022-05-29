@@ -3,9 +3,9 @@
     <head>
         <title>The Paul's story</title>
         <meta charset="utf-8"/>
-        <link rel="icon" href="/ressources/image/Paul's Story logo.png"/>
+        <link rel="icon" href="ressources/images/Paul's Story logo.png"/>
         <link rel="stylesheet" 
-        href="https://nsi-corneille.github.io/ressources/style/style.css"
+        href="ressources/style/style.css"
         type="text/css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+        <script src="ressources/JS/slideshow.js"> </script>
     </head>
     <body>
         <nav>
@@ -27,13 +28,16 @@
         </nav>
         <div class="content">
             <div class="button_container">
-                <img src="/ressources/images/fond_page_acceuil_jeu.png" alt="img accueil" class="accueil_img">
+                    <img src="ressources/images/fond_page_acceuil_jeu1.jpg" alt="img accueil1" class="accueil_img1">
                 <button class="D_Button">
                     <a href="https://drive.google.com/uc?export=download&id=18mrvNdFA4cKEgoxcowz5K3F6Ezj18Kzs">Télécharger</a>
                 </button>
             </div>
+            <a id="histoire"></a>
+            <br>
+            <br>
+            <br>
             <div class="histoire">
-                <a id="histoire"></a>
                 <h1>Histoire</h1>
                 C’est l’histoire d’un homme riche qui s’appelle Paul. Il est prétentieux avec son argent et refuse à chaque
                 fois de donner de l’argent aux personnes dans le besoin. Un jour, il rentre de son travail et sur la route, il
@@ -48,16 +52,55 @@
                 Après cette petite altercation, il rentre chez lui. Le soir même, il s’endort et le matin il se réveille dans un
                 endroit inconnu et c’est la que son histoire commence.
                 Il rencontre un homme sous le nom de toko qui l’interpelle : « Bonjour Paul, savez-vous pourquoi vous
-                êtes ici ? » Paul répond:«Qui êtes vous et qu’est-ce que je fais ici ? » toko répond:«Je suis votre guide et
+                êtes ici ? » Paul répond:«Qui êtes vous et qu’est-ce que je fais ici ? » Toko répond:«Je suis votre guide et
                 vous êtes ici pour que vous voyez la pauvreté du monde car je vois que vous en avez rien à faire de cela.
-                Vous allez donc passer quelques épreuves pour rentrer chez vous.
+                Vous allez donc passer quelques épreuves pour rentrer chez vous...
+                <div id="wrapper">
+                    <div id="slider-wrap">
+                       <ul id="slider">
+                          <li>
+                           <div>
+           <img src="http://www.cuisineetsentiments.com/images/pomme_1.jpg" class="img"/>
+                           </div>                
+                        </li>
+                        <li>
+                           <div>
+           <img src="http://www.cuisineetsentiments.com/images/pomme_1.jpg" class="img"/>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+           <img src="http://www.cuisineetsentiments.com/images/pomme_1.jpg" class="img"/>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+           <img src="http://www.cuisineetsentiments.com/images/pomme_1.jpg" class="img"/>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                             <img src="http://www.cuisineetsentiments.com/images/pomme_1.jpg" class="img"/>
+                           </div>
+                        </li>
+                     </ul>
+                      <!--controls-->
+                     <div class="btns" id="next"><i class="fa fa-arrow-right"></i></div>
+                     <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>
+                     <div id="counter"></div>
+                     <div id="pagination-wrap">
+                       <ul>
+                       </ul>
+                     </div>
+                     <!--controls-->  
+                 </div>
+              </div>
             </div>
             <a id="equipe">
-                
             </a>
             <a id="credits">
-                
             </a>
+            <img src="ressources/images/fond_page_acceuil_jeu2.jpg" alt="img accueil2" class="accueil_img2">
         </div>
     </body>
 </html>
