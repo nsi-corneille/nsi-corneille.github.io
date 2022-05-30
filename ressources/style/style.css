@@ -130,6 +130,13 @@ h1 {
   font-size: 25px;
   margin: 50px auto auto;
 }
+.credits {
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+  width: 75%;
+  font-size: 25px;
+  margin: 50px auto auto;
+}
 
 .card {
   position: relative;
