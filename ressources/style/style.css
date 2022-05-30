@@ -101,7 +101,13 @@ nav{
   font-size: 25px;
   margin: 50px auto auto;
 }
-.p {
+.p1 {
+  text-align: center;
+  width: 75%;
+  font-size: 25px;
+  margin: 50px auto auto;
+}
+.p2 {
   text-align: center;
   width: 75%;
   font-size: 25px;
