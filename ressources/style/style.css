@@ -434,3 +434,6 @@ SLIDESHOW
   28% { transform: translateX( -700px ); }
   100% { transform: translateX( -700px ); }
 }
+html {
+  scroll-behavior: smooth;
+}
