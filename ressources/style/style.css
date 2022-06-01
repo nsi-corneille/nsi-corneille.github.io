@@ -131,8 +131,21 @@ h1 {
   margin: 50px auto auto;
 }
 
-.grille {
+.credits {
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+  width: 75%;
+  font-size: 25px;
+  margin: 50px auto auto;
+}
 
+.grille {
+  display: grid | inline-grid;
+}
+
+.grille img {
+  width: 450px;
+  height: 250px;
 }
 
 /*********
@@ -212,6 +225,7 @@ SLIDESHOW
 
 body {
     background-color: #fd9c0f;
+    align-items: center;
 }
 
 .content {
@@ -320,7 +334,7 @@ h1 {
   font-size: 120%;
   width: 100%;
 }
-
+  
 .accueil_img2 {
   width: 100%;
   height: auto;
